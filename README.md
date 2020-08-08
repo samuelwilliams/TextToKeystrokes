@@ -3,6 +3,8 @@ TextToKeystrokes
 TextToKeystrokes is a simple Windows app that will retype any text pasted into the window. The motivation was for
 use on VMs connected through Guacamole that did not have any copy/paste functionality with the host/browser.
 
+[Download TextToKeystrokes.exe latest release](https://github.com/samuelwilliams/TextToKeystrokes/releases/latest/download/TextToKeystrokes.exe)
+
 ![Demonstration](https://raw.githubusercontent.com/samuelwilliams/TextToKeystrokes/master/Resources/demo.gif)
 
 ## Usage
