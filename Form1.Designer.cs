@@ -34,6 +34,7 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.button_clearText = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,11 +106,22 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button_clearText
+            // 
+            this.button_clearText.Location = new System.Drawing.Point(95, 427);
+            this.button_clearText.Name = "button_clearText";
+            this.button_clearText.Size = new System.Drawing.Size(75, 23);
+            this.button_clearText.TabIndex = 6;
+            this.button_clearText.Text = "Clear Text";
+            this.button_clearText.UseVisualStyleBackColor = true;
+            this.button_clearText.Click += new System.EventHandler(this.button_clearText_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Controls.Add(this.button_clearText);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.trackBar1);
@@ -118,10 +130,10 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Text to Keystrokes";
+            this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-            this.TopMost = true;
 
         }
 
@@ -133,6 +145,7 @@
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button_clearText;
     }
 }
 

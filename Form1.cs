@@ -64,5 +64,10 @@ namespace TextToKeystrokes
                 this.CancelTypingTokenSource.Cancel();
             }
         }
+
+        private void button_clearText_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = "";
+        }
     }
 }
