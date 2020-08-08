@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp
+﻿namespace TextToKeystrokes
 {
     partial class Form1
     {

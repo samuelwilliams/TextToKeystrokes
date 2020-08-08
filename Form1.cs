@@ -12,7 +12,7 @@ using System.Threading;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 
-namespace WindowsFormsApp
+namespace TextToKeystrokes
 {
     public partial class Form1 : Form
     {   
